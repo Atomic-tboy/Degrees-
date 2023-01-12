@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degree converter</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .header {
+            margin-top: 20px;
+        }
+
+        #inputArea {
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #resultArea {
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container header" id="header">
+        <h3>Convert Degress in decemial to degrees, minutes and seconds.</h3>
+    </div>
+    <div class="container mr-5" id="conversionArea">
+        <div class="" id="inputArea">
+                <label for="degree">Enter the Degrees:</label>
+                <input type="tel" id="degree">
+                <button class="btn" id="convert">Convert</button>
+        </div>
+
+        <div class="" id="resultArea">
+            <p>The Result will be shown here in minutes and seconds.</p>
+                <label for="result">Result here:</label>
+                <input type="tel" id="result">
+                <button class="btn" id="reset">Reset</button>
+        </div>
+        <div class="container mt-4" id="buttonArea">
+                <h4>If you want to change from degrees, seconds and minutes to degrees only. Then click the button below</h4>
+                <a href="degreesSM.html" class="btn">Convert to degrees to decimal</a>
+        </div>
+    </div>
+
+    <script src="degrees.js"></script>
+</body>
+</html>

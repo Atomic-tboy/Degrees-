@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degree converter</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .header {
+            margin-top: 20px;
+        }
+
+        #inputArea {
+            margin-top: 30px;
+            margin-left: 100px;
+        }
+
+        #resultArea {
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+
+        #conversionArea #inputArea input{
+            width: 260px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container header" id="header">
+        <h3>Convert Degress in decemial to degrees, minutes and seconds.</h3>
+    </div>
+    <div class="container mr-5" id="conversionArea">
+        <div class="row" id="inputArea">
+                <label for="degree" class="mt-3">Enter the Degrees:</label>
+                <input type="tel" id="degree">
+
+                <label for="miunte" class="mt-3">Enter the Minutes:</label>
+                <input type="tel" id="minute">
+
+                <label for="seconds" class="mt-3">Enter the Seconds:</label>
+                <input type="tel" id="seconds">
+
+                <button class="btn right" id="convert"><strong>Convert</strong></button>
+        </div>
+
+        
+    </div>
+
+        <div class="" id="resultArea">
+            <h4>The Results are below.</h4>
+                <label for="result">Result:</label>
+                <input type="text" id="result">
+                <button id="reset">Reset</button>
+        </div>
+
+        <div class="container mt-5" id="buttonArea">
+                <a href="degrees.html" class="btn">Convert from degress to degress, minutes and seconds</a>
+        </div>
+    
+    <script src="degressSm.js"></script>
+</body>
+</html>
